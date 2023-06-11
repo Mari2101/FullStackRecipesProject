@@ -64,7 +64,7 @@ const ShoppingLists = () => {
     const { title, body } = updateForm;
 
     const res = await axios.put(
-      `http://localhost:3005/notes/${updateForm._id}`,
+      `http://localhost:3006/notes/${updateForm._id}`,
       {
         title,
         body,
