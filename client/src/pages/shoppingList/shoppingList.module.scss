@@ -1,0 +1,61 @@
+#listDiv {
+  background-color: rgb(228, 233, 235);
+  display: flex;
+  flex-direction: column;
+  h4 {
+    text-align: center;
+    margin: 15px;
+  }
+}
+h2 {
+  font-size: 2.5rem;
+}
+#listHeader {
+  text-align: center;
+  background-color: #6c7ea5;
+}
+
+#createNote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#createNoteBtn {
+  background-color: #6c7ea5;
+  border: 0;
+}
+
+#updateForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#noteInput {
+  width: 60%;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+textarea {
+  margin-top: 10px;
+  width: 60%;
+  height: 150px;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+@media (max-width: 600px) {
+  #noteInput,
+  textarea {
+    width: 95%;
+  }
+}

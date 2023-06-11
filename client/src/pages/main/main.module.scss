@@ -1,0 +1,38 @@
+#mainDiv {
+  background-image: url(../../images/tasty-fresh-appetizing-italian-food-ingredients-dark-background-ready-cook-home-italian-healthy-food-cooking-concept-toning.jpg);
+  width: 100vw;
+  height: 80vh;
+  background-size: cover;
+}
+
+#headingDiv {
+  display: flex;
+  justify-content: center;
+}
+#mainHeader {
+  background-color: #f1b833;
+  text-align: center;
+  color: rgb(63, 46, 3);
+  margin: 20vh;
+  font-size: 2.5rem;
+  a {
+    font-size: 1.3rem;
+    color: wheat;
+  }
+}
+
+@media (max-width: 1000px) {
+  #mainHeader {
+    margin: 10vh;
+  }
+}
+@media (max-width: 500px) {
+  #mainHeader {
+    margin: 2vh;
+    font-size: 1.5rem;
+    a {
+      font-size: 0.8rem;
+      color: wheat;
+    }
+  }
+}

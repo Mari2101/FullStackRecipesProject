@@ -1,0 +1,25 @@
+.loginDiv {
+  text-align: center;
+  background-color: #d0d0de;
+
+  h2 {
+    padding: 20px;
+    font-size: 40px;
+    background-color: #9d9dd6;
+    margin-bottom: 2vh;
+  }
+  p {
+    padding: 2vh;
+  }
+  .btns {
+    display: flex;
+    justify-content: center;
+  }
+}
+button {
+  margin: 10px;
+}
+
+.regBtn {
+  color: orangered;
+}
