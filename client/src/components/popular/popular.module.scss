@@ -1,0 +1,36 @@
+#recipesDiv {
+  text-align: center;
+  background-color: #c5c6e0;
+  padding-top: 10vh;
+}
+#link {
+  text-decoration: none;
+}
+h3 {
+  text-align: left;
+  margin-left: 5vw;
+}
+#Mycard {
+  background-color: #e3e4ef;
+}
+h6 {
+  text-align: center;
+  height: 40px;
+  font-weight: 600;
+  color: #e04f2b;
+}
+#btnDetails {
+  border: 0;
+  border-radius: 3%;
+  color: #e04f2b;
+  &:hover {
+    background-color: #a597db;
+  }
+}
+
+@media (max-width: 500px) {
+  h6 {
+    height: 50px;
+    font-size: 14px;
+  }
+}

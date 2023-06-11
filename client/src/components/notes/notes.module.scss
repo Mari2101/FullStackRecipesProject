@@ -1,0 +1,31 @@
+#notesSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+#notesLists {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgb(188, 185, 185);
+  width: 45%;
+  margin: 10px;
+  border-radius: 2%;
+}
+
+#buttonsSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media (max-width: 600px) {
+  #notesLists {
+    width: 95%;
+  }
+}

@@ -1,0 +1,32 @@
+#searchContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #c5c6e0;
+}
+h2 {
+  text-align: center;
+  padding: 2vh;
+  margin: 0;
+  button {
+    margin: 0;
+  }
+}
+#searchInput {
+  width: 50vw;
+  height: 30px;
+  background-color: #ebecf3;
+  border-radius: 10%;
+  border: 1px solid #b6b7dd;
+}
+
+@media (max-width: 500px) {
+  h2 {
+    font-size: 20px;
+    padding: 0;
+  }
+  #searchInput {
+    width: 80vw;
+  }
+}

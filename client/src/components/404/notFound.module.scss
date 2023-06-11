@@ -1,0 +1,35 @@
+.notFoundComponent {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #c8e471;
+}
+
+#flaticon {
+  background-color: #fff;
+  width: 100%;
+  text-align: center;
+}
+
+#err {
+  width: 30vw;
+}
+
+.btns {
+  display: flex;
+  flex-direction: row;
+}
+
+#optionBtn {
+  text-decoration: none;
+  margin: 10px;
+}
+@media (max-width: 600px) {
+  #err {
+    width: 70vw;
+  }
+  .btns {
+    flex-direction: column;
+  }
+}

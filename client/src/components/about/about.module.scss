@@ -1,0 +1,30 @@
+.aboutDiv {
+  background-color: #d0d0de;
+
+  text-align: center;
+  h2 {
+    padding: 10px;
+    font-size: 40px;
+    background-color: #c0c0e4;
+    margin-bottom: 0;
+    img {
+      width: 40px;
+    }
+  }
+  p {
+    text-align: justify;
+    font-size: 20px;
+    padding: 30px;
+    margin: 0;
+    line-height: 2;
+  }
+}
+
+@media (min-width: 900px) {
+  .aboutDiv h2 {
+    font-size: 50px;
+    img {
+      width: 50px;
+    }
+  }
+}
