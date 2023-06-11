@@ -63,6 +63,10 @@ cors
 
 ## Launch
 
-To launch this project type in terminal:
+To launch Front Side, type in terminal:
 npm install
 npm start
+
+To launch Back Side, type in terminal:
+npm install
+npm run dev
